@@ -1,0 +1,40 @@
+{
+    "mybudget": [
+    {
+        "title": "Eat out",
+        "budget": 25,
+        "color": "#ffcd56"
+    },
+    {
+        "title": "Rent",
+        "budget": 275,
+        "color": "#ff6384"
+    },
+    {
+        "title": "Grocery",
+        "budget": 110,
+        "color": "#36a2eb"
+    },
+    {
+        "title": "laundry",
+        "budget": 20,
+        "color": "#fd6b19"
+    },
+    {
+        "title": "shopping",
+        "budget": 100,
+        "color": "#283747"
+    },
+    {
+        "title": "house appliances",
+        "budget": 50,
+        "color": "#5ECC71"
+    },
+    {
+        "title": "car",
+        "budget": 200,
+        "color": "#7D7C78"
+    }
+
+]
+}
