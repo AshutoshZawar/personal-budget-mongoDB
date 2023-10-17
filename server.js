@@ -40,7 +40,7 @@ const Budget = mongoose.model('Budget', budgetSchema, 'Budget'
   try {
     console.log('Inside /budget route');
     const budget = await Budget.findOne(); 
-    
+    console.log(budget);
     if (!budget) {
       console.error('No budget data found');
       return res.status(404).send('No budget data found');
@@ -59,7 +59,7 @@ app.post('/add-document', async (req, res) => {
     const { title, budget, color } = req.body;
 
     const newBudgetItem = { title, budget, color };
-
+    
     const result = await Budget.findOneAndUpdate(
       { _id: '652c71211a817672025cfb31' },
       { $push: { myBudget: newBudgetItem } },

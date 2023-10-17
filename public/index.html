@@ -467,7 +467,8 @@
               axios
                 .get("/budget")
                 .then(function (res) {
-                  const budgetData = res.data.myBudget;
+                  const budgetData = res.data.mybudget;
+                  console.log(res)
                   for (let i = 0; i < budgetData.length; i++) {
                     dataSource.datasets[0].data[i] = budgetData[i].budget;
                     dataSource.labels[i] = budgetData[i].title;
